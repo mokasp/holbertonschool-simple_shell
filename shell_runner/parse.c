@@ -11,13 +11,14 @@ char **parse(char *str)
 	token = strtok(str, " ");
 	while (token != NULL)
 	{
-
-		toks[i] = token;
-
+		toks[i] = strdup(token);
 		token = strtok(NULL, " ");
 		i++;
 	}
 	toks[i] = token;
 
+
+	free(token);
+	free(toks);
 	return (toks);
 }
