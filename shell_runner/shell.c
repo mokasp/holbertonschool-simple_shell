@@ -20,9 +20,8 @@ int main(void)
 
 			exit(EXIT_FAILURE);
 		}
-    	{
 		args = parse(line);
-    	}
+
 		if (strcmp(line, "hi\n") == 0)
 		{
 			printf("halllooo :3c type a command plz\n");
