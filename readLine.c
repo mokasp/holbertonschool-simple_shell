@@ -7,8 +7,7 @@ char *readLine(void)
 
 	if (getline(&line, &buffer, stdin) == -1)
         {
-		free(line);
-                printf("thanks bai !\n");
+		free(line);             
 		exit(EXIT_SUCCESS);
         }
 	return (line);

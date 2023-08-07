@@ -11,12 +11,11 @@ int cmdHandler(char **parsed)
 
         cmdList[0] = "exit";
         cmdList[1] = "hi";
-        cmdList[2] = "help";
-        cmdList[3] = "cd";
-        cmdList[4] = "env";
-        cmdList[5] = "path";
+        cmdList[2] = "cd";
+        cmdList[3] = "env";
+        cmdList[4] = "path";
 
-        for (i = 0; i < 6; i++)
+        for (i = 0; i < 5; i++)
         {
                 if (strcmp(parsed[0], cmdList[i]) == 0)
                 {
@@ -27,15 +26,11 @@ int cmdHandler(char **parsed)
         switch (switchArg)
         {
                 case 1:
-                        printf("ahhhh bai \n");
                         return (-1);
                 case 2:
                         printf("\n oh hallo \n");
                         return (1);
                 case 3:
-                        printf("wip\n");
-                        return (1);
-                case 4:
                         if (parsed[1] == NULL)
                                 perror("too few arguments");
                         else
@@ -46,14 +41,14 @@ int cmdHandler(char **parsed)
                                 }
                         }
                         return (1);
-                case 5:
+		case 4:
                         while (*env != NULL)
                         {
                                 printf("%s\n", *env);
                                 env++;
                         }
                         return (1);
-                case 6:
+                case 5:
                         for (j = 0; envp[j] != NULL; j++)
                         {
                                 if (strncmp(envp[j], "PATH=", 5) == 0)
