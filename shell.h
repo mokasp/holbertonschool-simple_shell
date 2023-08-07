@@ -2,7 +2,7 @@
 #define SHELL_H
 
 #define TOK_BUFSIZE 64
-#define TOK_DELIM " \n"
+#define TOK_DELIM " \n\r\t"
 
 #include <unistd.h>
 #include <stdio.h>
