@@ -7,10 +7,12 @@ int main(void)
 	int status = 1;
 
 
-	while (status == 1)
+	while (status != -1)
 	{
 		if (isatty(fileno(stdin)))
 			printf(":3 ");
+		else
+			status = 0;
 
 
 		line = readLine();
