@@ -2,7 +2,7 @@
 #define SHELL_H
 
 #define TOK_BUFSIZE 64
-#define TOK_DELIM " \n"
+#define TOK_DELIM " "
 
 #include <unistd.h>
 #include <stdio.h>
@@ -17,10 +17,12 @@
 
 #define EXIT "exit\n"
 
+char *find_full_path(const char *command, const char *path_env);
+
+int run_command(char *args[], const char *path_env);
+
 char **parse(char *str);
-char *readLine(void);
-extern char **environ;
-int execution(char **parsed);
-int cmdHandler(char **parsed);
+
+extern char **enviorn;
 
 #endif
