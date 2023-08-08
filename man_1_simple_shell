@@ -2,7 +2,7 @@
 .TH man 1 "7 August 2023" "1.0" "your_fonction man page"
 .SH hsh
     Is a simple shell  - hsh
-.SH SYNOPSIS
+.SH SYNOPSImS
  :3  [command_name] {optionnal argument}
 .SH DESCRIPTION
 ./hsh is a program that when promted takes in a users command
