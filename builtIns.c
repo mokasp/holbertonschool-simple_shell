@@ -13,7 +13,7 @@ int cmdHandler(char **parsed)
 	cmdList[0] = "exit";
 	cmdList[1] = "cd";
 	cmdList[2] = "env";
-	for (i = 0; i < 4; i++)
+	for (i = 0; i < 3; i++)
 	{
 		if (strcmp(parsed[0], cmdList[i]) == 0)
 			switchArg = i + 1;

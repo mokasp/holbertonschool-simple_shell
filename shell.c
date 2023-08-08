@@ -11,7 +11,7 @@ int main(void)
 	char *line;
 	int status = 1;
 
-	while (status = 1)
+	while (status == 1)
 	{
 		if (isatty(fileno(stdin)))
 		printf(":3 ");
