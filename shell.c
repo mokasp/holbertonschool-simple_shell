@@ -17,6 +17,7 @@ int main(void)
 		line = readLine();
 		argv = parse(line);
 		status = cmdHandler(argv);
+<<<<<<< HEAD
 		if (status == -2)
 		{
 			free(line);
@@ -24,6 +25,8 @@ int main(void)
 			exit(2);
 		}
 >>>>>>> fd4849020e48beebab598bace3050ceaf35a3c7c
+=======
+>>>>>>> e995c0c30cb034b9d38af900ce42195032655d5a
 
                 free(line);
                 free(argv);
