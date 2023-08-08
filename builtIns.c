@@ -8,7 +8,8 @@
 int cmdHandler(char **parsed)
 {
 	int switchArg = 0, status = 0, i;
-	char **env = environ, *cmdList[4];
+	char **env = environ;
+	char *cmdList[4];
 
 	cmdList[0] = "exit";
 	cmdList[1] = "cd";

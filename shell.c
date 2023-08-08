@@ -14,7 +14,7 @@ int main(void)
 	while (status == 1)
 	{
 		if (isatty(fileno(stdin)))
-		printf(":3 ");
+			printf(":3 ");
 
 		line = readLine();
 		argv = parse(line);
