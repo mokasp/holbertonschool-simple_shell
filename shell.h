@@ -17,10 +17,14 @@
 
 #define EXIT "exit\n"
 
-char **parse(char *str);
 char *readLine(void);
-extern char **environ;
-int execution(char **parsed);
-int cmdHandler(char **parsed);
+
+char *find_full_path(const char *command, const char *path_env);
+
+int run_command(char *args[], const char *path_env);
+
+char **parse(char *str);
+
+extern char **enviorn;
 
 #endif

@@ -3,7 +3,7 @@
 int execution(char **parsed)
 {
 	pid_t pid = fork();
-	
+
 
 	if (pid == 0)
 	{

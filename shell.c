@@ -2,22 +2,19 @@
 
 int main(void)
 {
-	char **argv;
-	char *line;
-	int status = 1;
+        char **argv;
+        char *line;
 
 
-	while (status == 1)
-	{
-		if (isatty(fileno(stdin)))
-			printf(":3 ");
+        while (1)
+        {
+                printf(":3 ");
 
-		line = readLine();
-		argv = parse(line);
-		status = cmdHandler(argv);
+                line = readLine();
+                argv = parse(line);
 
-		free(line);
-		free(argv);
-	}
-	exit(EXIT_SUCCESS);
+                free(line);
+                free(argv);
+        }
+        exit(EXIT_SUCCESS);
 }
