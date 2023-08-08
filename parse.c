@@ -1,5 +1,9 @@
 #include "shell.h"
-
+/**
+ * **parse - parses user input from string into a 2d array
+ *
+ * Return: 2d array of parsed user input
+ */
 char **parse(char *str)
 {
 	int i = 0;

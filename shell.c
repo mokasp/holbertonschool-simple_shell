@@ -1,4 +1,9 @@
 #include "shell.h"
+/**
+ * main - start main loop of shell
+ *
+ * Return: 0 on success
+ */
 
 int main(void)
 {
@@ -6,11 +11,10 @@ int main(void)
 	char *line;
 	int status = 1;
 
-
-	while (status == 1)
+	while (status = 1)
 	{
 		if (isatty(fileno(stdin)))
-			printf(":3 ");
+		printf(":3 ");
 
 		line = readLine();
 		argv = parse(line);
