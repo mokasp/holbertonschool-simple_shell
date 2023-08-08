@@ -8,7 +8,10 @@ int execution(char **parsed)
 	if (pid == 0)
 	{
 		if (execvp(parsed[0], parsed) == -1)
+		{
 			perror("unheard of");
+			return (-2);
+		}
 		return (-1);
 	}
 	else if (pid < 0)
