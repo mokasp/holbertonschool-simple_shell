@@ -9,6 +9,10 @@ Simple UNIX command line interpreter (
 
 ## Usage
 
+Clone our repository
+```c
+Git Clone https://github.com/mokasp/holbertonschool-simple_shell.git
+```
 Compile all .c files into hsh
 ```c
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
