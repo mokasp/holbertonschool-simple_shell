@@ -1,6 +1,5 @@
 # holbertonschool-simple_shell
-Simple UNIX command line interpreter (ect)
-
+Simple UNIX command line interpreter (
 
 ## Table of contents
 
@@ -9,7 +8,15 @@ Simple UNIX command line interpreter (ect)
   -The project requierments for this Simple_Shell 
 
 ## Usage
-./hsh is used for linking keyboard to kernel
+
+Compile all .c files into hsh
+```c
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+```
+Execute the program
+```c
+:3 ./hsh
+```
 ## Description
   
 ### List of files
