@@ -4,14 +4,10 @@ int execution(char **parsed)
 {
 	pid_t pid = fork();
 	
-
 	if (pid == 0)
 	{
 		if (execvp(parsed[0], parsed) == -1)
-		{
 			perror("unheard of");
-			return (-2);
-		}
 		return (-1);
 	}
 	else if (pid < 0)
@@ -20,6 +16,5 @@ int execution(char **parsed)
 	{
 		wait(NULL);
 	}
-
 	return (1);
 }

@@ -15,12 +15,6 @@ int main(void)
 		line = readLine();
 		argv = parse(line);
 		status = cmdHandler(argv);
-		if (status == -2)
-		{
-			free(line);
-			free(argv);
-			exit(2);
-		}
 
 		free(line);
 		free(argv);
