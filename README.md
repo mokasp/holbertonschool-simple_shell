@@ -45,14 +45,19 @@ Execute the program
 
 [mokasp](https://github.com/mokasp)
 
-[Frankblation] (https://github.com/Frankblation)
+[Frankblation](https://github.com/Frankblation)
 
 ## Acknowledgments
-*https://www.geeksforgeeks.org/making-linux-shell-c/*
-*https://brennan.io/2015/01/16/write-a-shell-in-c/*
-*https://www.linkedin.com/pulse/tutorial-code-simple-shell-c-ricardo-hincapi%C3%A9-trujillo/*
-*https://medium.com/@santiagobedoa/coding-a-shell-using-c-1ea939f10e7e*
-*https://blog.ehoneahobed.com/building-a-simple-shell-in-c-part-1*
+###*https://www.geeksforgeeks.org/making-linux-shell-c/*
+
+###*https://brennan.io/2015/01/16/write-a-shell-in-c/*
+
+###*https://www.linkedin.com/pulse/tutorial-code-simple-shell-c-ricardo-hincapi%C3%A9-trujillo/*
+
+###*https://medium.com/@santiagobedoa/coding-a-shell-using-c-1ea939f10e7e*
+
+###*https://blog.ehoneahobed.com/building-a-simple-shell-in-c-part-1*
+
 Repositories
 8
 Followers
