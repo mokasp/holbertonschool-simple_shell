@@ -10,11 +10,10 @@ char *readLine(void)
 	char *line = NULL;
 	size_t buffer = 0;
 
-	if (getline(&line, &buffer, stdin) == -1)	
+	if (getline(&line, &buffer, stdin) == -1)
 	{
-			free(line);
-			printf("thanks bai !\n");
-			exit(EXIT_SUCCESS);
+		free(line);
+		exit(EXIT_SUCCESS);
 	}
 	return (line);
 }
