@@ -10,7 +10,6 @@
 #include <stdarg.h>
 #include <string.h>
 #include <sys/wait.h>
-#include <errno.h>
 
 #define BUFFER 1024
 

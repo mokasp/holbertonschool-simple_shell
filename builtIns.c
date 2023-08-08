@@ -1,15 +1,21 @@
 #include "shell.h"
-
+/**
+ * cmdHandler - compares command with list of built-in
+ * commands and calls execute function if command was not found in built-ins
+ * @parsed: 2d array holding parsed user input
+ *
+ * Return: -1 if user enters "exit", else returns 1
+*/
 int cmdHandler(char **parsed)
 {
 	int switchArg = 0, status = 0, i;
-	char **env = environ
-	char *cmdList[4];
+	char **env = environ;
+	char *cmdList[3];
 
 	cmdList[0] = "exit";
 	cmdList[1] = "cd";
 	cmdList[2] = "env";
-	for (i = 0; i < 4; i++)
+	for (i = 0; i < 3; i++)
 	{
 		if (strcmp(parsed[0], cmdList[i]) == 0)
 			switchArg = i + 1;

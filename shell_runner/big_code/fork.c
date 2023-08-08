@@ -1,4 +1,4 @@
-#include "shell.c"
+#include "shell.h"
 
 int run_command(char *args[], const char *path_env)
 {
