@@ -4,16 +4,17 @@
  *
  * Return: user input stored in as a string
  */
+
 char *readLine(void)
 {
-		char *line = NULL;
-		size_t buffer = 0;
+	char *line = NULL;
+	size_t buffer = 0;
 
-		if (getline(&line, &buffer, stdin) == -1)
-		{
-				free(line);
-				printf("thanks bai !\n");
-				exit(EXIT_SUCCESS);
-		}
-		return (line);
+	if (getline(&line, &buffer, stdin) == -1)	
+	{
+			free(line);
+			printf("thanks bai !\n");
+			exit(EXIT_SUCCESS);
+	}
+	return (line);
 }
