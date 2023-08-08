@@ -5,9 +5,9 @@
 .SH SYNOPSIS
  :3  [command_name] {optionnal argument}
 .SH DESCRIPTION
-./hsh is a program that when promted takes in a users command 
+./hsh is a program that when promted takes in a users command
+
 .SH OPTIONS
-your_fonction does not take any options
 .SH BUGS
 No known bugs.
 .SH AUTHOR
