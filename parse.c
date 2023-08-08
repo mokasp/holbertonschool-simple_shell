@@ -18,16 +18,6 @@ char **parse(char *str)
 	{
 		toks[i] = token;
 		i++;
-		if (i >= bufsize)
-		{
-			bufsize += TOK_BUFSIZE;
-			toks = realloc(toks, bufsize * sizeof(char *));
-			if (!toks)
-			{
-				perror("allocation error\n");
-				exit(EXIT_FAILURE);
-			}
-		}
 		token = strtok(NULL, TOK_DELIM);
 	}
 	toks[i] = NULL;
