@@ -1,11 +1,11 @@
 # holbertonschool-simple_shell
-Simple UNIX command line interpreter (
+Simple UNIX command line interpreter
 
 ## Table of contents
 
 
 ## Project Requirements
-  -The project requierments for this Simple_Shell 
+  -The project requierments for this Simple_Shell
 
 ## Usage
 
@@ -22,9 +22,9 @@ Execute the program
 :3 ./hsh
 ```
 ## Description
-  
+
 ### List of files
- 
+
  shell.h
 
  shell.c
@@ -36,14 +36,16 @@ Execute the program
  builtIns.c
 
  executions.c
- 
+
 ## Flowcharts
 
 ## Bugs
   *No known bugs.
 ## Authors ##
+
 [mokasp](https://github.com/mokasp)
-[Frankblation] (https//github.com/Frankblation)
+
+[Frankblation] (https://github.com/Frankblation)
 
 ## Acknowledgments
 *https://www.geeksforgeeks.org/making-linux-shell-c/*
