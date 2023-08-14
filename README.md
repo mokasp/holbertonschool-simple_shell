@@ -3,9 +3,6 @@
 # holbertonschool-simple_shell
 Simple UNIX command line interpreter
 
-## Table of contents
-
-
 ## Project Requirements
   -The project requierments for this Simple_Shell
 
